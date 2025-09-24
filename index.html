@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luigi Adrian Hatamosa | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- For icons -->
+</head>
+<body>
+  <div class="bg-layer layer-deep parallax-layer" data-rate="0.12"></div>
+  <div class="bg-layer layer-mid parallax-layer" data-rate="0.06"></div>
+  <div class="bg-layer layer-nebula parallax-layer" data-rate="0.03"></div>
+  <div class="bg-layer layer-twinkle"></div>
+
+  <div class="floating-blobs"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-logo gradient-text" href="#hero">Luigi Adrian Hatamosa</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero-section">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Hi, I'm <span class="accent typing">Luigi Adrian Hatamosa</span><span class="cursor">|</span>
+          </h1>
+          <p class="hero-sub">Web Developer • Problem Solver • Creative Thinker</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" data-target="#projects">View My Work</button>
+            <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image-glow"></div>
+          <img class="hero-image" src="assets/img1.jpg" alt="Luigi Adrian Hatamosa — portrait" />
+        </div>
+      </div>
+      <div class="hero-info">
+        <h3>Quick Facts</h3>
+        <ul>
+          <li>📍 Based in Cebu, PH</li>
+          <li>💻 Student</li>
+          <li>🌱 Willing to learn & a Tech Enthusiast</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title gradient-text">Who I Am</h2>
+      <p class="lead">I'm a passionate web developer who loves building elegant, performant and accessible websites. I focus on clean code, pleasant UI/UX and reusable components.</p>
+      <p class="muted">Fun fact: I enjoy songs that give a late night vibe especially during the rain!</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title gradient-text">What I Do</h2>
+        <div class="cards">
+      
+          <article class="card">
+            <h3>Spotify App</h3>
+            <p>A mobile app that helps users track their habits. Built with React Native.</p>
+            <div class="card-actions">
+              <a class="btn small btn-ghost" href="https://github.com/Luwiji21800570/adv-mob-dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Repo</a>
+            </div>
+          </article>
+      
+          <article class="card">
+            <h3>ApartManager</h3>
+            <p>An interactive website for a local business. Built with HTML, CSS, and JavaScript.</p>
+            <div class="card-actions">
+              <a class="btn small btn-ghost" href="https://github.com/Igneous12/Apartment-Manager" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Repo</a>
+            </div>
+          </article>
+      
+        </div>
+      </section>
+      
+
+    <section id="skills" class="section">
+      <h2 class="section-title gradient-text">How I Work</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h4>React</h4>
+          <p>State management and component-driven design.</p>
+        </div>
+        <div class="skill">
+          <h4>UI/UX</h4>
+          <p>Figma and Canva.</p>
+        </div>
+        <div class="skill">
+          <h4>HTML/CSS</h4>
+          <p>Easy to navigate design, responsive layouts, and accessible UI.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title gradient-text">Reach Me</h2>
+      <p class="lead">
+        Email: <a class="link" href="mailto:21800570@usc.edu.ph">21800570@usc.edu.ph</a>
+      </p>
+      <p class="lead">
+        GitHub: <a class="link" href="https://github.com/Luwiji21800570" target="_blank" rel="noopener">Luwiji21800570</a>
+      </p>
+      <div class="contact-ctas">
+        <a class="btn btn-primary" href="mailto:21800570@usc.edu.ph"><i class="fas fa-envelope"></i> Send Email</a>
+        <a class="btn btn-ghost" href="https://github.com/Luwiji21800570" target="_blank" rel="noopener"><i class="fab fa-github"></i> Open GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Luigi Adrian Hatamosa. All Rights Reserved.</p>
+    <p>
+      <a class="link" href="https://github.com/Luwiji21800570" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+      &nbsp;|&nbsp;
+      <a class="link" href="mailto:21800570@usc.edu.ph"><i class="fas fa-envelope"></i> 21800570@usc.edu.ph</a>
+    </p>
+  </footer>
+
+  <button id="back-to-top" title="Back to top">&#8679;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
